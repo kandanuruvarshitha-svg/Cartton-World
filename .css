@@ -1,0 +1,1138 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://image2url.com/images/1762848443664-40d7c2bf-0832-46c7-bbf5-4563402e3fef.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.tourism-card {
+    text-align: center;
+    background-color: transparent;
+    padding: 5px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+.main-heading {
+    font-family: "Roboto";
+    color: white;
+}
+
+/* Make navbar blend into the title page */
+.navbar {
+    background-color: transparent !important;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+    box-shadow: none !important;
+}
+
+/* Adjust navbar links for visibility on backgrounds */
+.navbar .nav-link,
+.navbar-brand {
+    color: white !important;
+    font-weight: 500;
+}
+
+
+
+/* Add padding so content doesn’t go behind navbar */
+.bg-container {
+    padding-top: 120px;
+}
+
+.paragraph {
+    font-family: "Roboto";
+    color: white;
+}
+
+.button {
+    color: white;
+    background-color: #25b1cc;
+    width: 138px;
+    height: 36px;
+    border-width: 0px;
+    border-radius: 20px;
+}
+
+
+
+.detailed-view-bg-container {
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjheO2TTWurOc8rso_wYdMmc8gkLjAaelfwGCN3L4jTtOuYvaxu3eFob-557Swv3ZBlloy42YO7edsvPkyGoePL12dKmmon3x36YbeC548uAlY7TLtoV_DGFHMgAlBXdd8BUgQDMnAgYvo/s1600/Doraemon%252Bv02%252Bc20%252B-%252B036-037.png');
+    height: 100vh;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Caveat ";
+    font-style: italic;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.detailed-view-bg-container {
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+}
+
+.detailed-view-heading {
+    color: white;
+    font-family: "Roboto";
+    font-size: 28px;
+    font-weight: bold;
+    padding: 24px;
+}
+
+.detailed-view-card-heading {
+    color: #0f0e46;
+    font-family: "Roboto";
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.detailed-view-card-description {
+    color: #6c6b70;
+    font-family: "Roboto";
+    font-size: 13px;
+}
+
+.detailed-view-card-text-container {
+    padding: 16px;
+}
+
+.head {
+    font-size: 10px;
+    text-align: center;
+}
+
+.neon-hover {
+    border: 2px solid transparent;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, border 0.3s ease;
+}
+
+img.neon-hover:hover {
+    border: 2px solid #A1A1A1;
+    box-shadow: 0 0 10px #A1A1A1,
+        0 0 20px #A1A1A1,
+        0 0 30px #A1A1A1,
+        0 0 40px #A1A1A1;
+}
+
+h1.neon-hover:hover {
+    border: 2px solid black;
+    box-shadow: 0 0 10px black,
+        0 0 20px black,
+        0 0 30px black,
+        0 0 40px black;
+}
+
+button.button:hover {
+    border: 2px solid black;
+    box-shadow: 0 0 10px black,
+        0 0 20px black,
+        0 0 30px black,
+        0 0 40px black;
+}
+
+/* Doraemon Theme */
+.doraemon-theme {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb);
+    height: 150vh;
+    color: #0a2540;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+.doraemon-card {
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 162, 255, 0.4);
+    overflow: hidden;
+}
+
+.doraemon-carousel-inner {
+    border-radius: 20px;
+}
+
+.doraemon-image {
+    border-radius: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+
+}
+
+.doraemon-image:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(0, 174, 255, 0.6);
+}
+
+.doraemon-indicators li {
+    background-color: #007bff;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.doraemon-indicators .active {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+.doraemon-prev,
+.doraemon-next {
+    filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(180deg);
+}
+
+.doraemon-text {
+    background: transparent;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+}
+
+.doraemon-btn {
+    background-color: #009dff;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 20px;
+    color: white;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+
+.doraemon-btn:hover {
+    background-color: #007bff;
+    box-shadow: 0 0 15px #007bff;
+}
+
+/* Main Video Section */
+#sectionDoremonyoutubeurl {
+    display: none;
+    text-align: center;
+    padding: 50px;
+    height: 150vh;
+    animation: fadeIn 0.6s ease-in-out forwards;
+    background-size: 300% 300%;
+}
+
+/* Animated Gradient Movement */
+@keyframes bgMove {
+    0% {
+        background-position: left top;
+    }
+
+    100% {
+        background-position: right bottom;
+    }
+}
+
+/* Video Card Container */
+.doraemon-video-card {
+    display: inline-block;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 25px;
+    border: 5px solid #0090cf;
+    box-shadow: 0px 10px 30px rgba(0, 102, 153, 0.4);
+    transition: 0.4s ease;
+    animation: float 3s infinite ease-in-out;
+}
+
+/* Floating Animation */
+@keyframes float {
+    0% {
+        transform: translateY(0px)
+    }
+
+    50% {
+        transform: translateY(-10px)
+    }
+
+    100% {
+        transform: translateY(0px)
+    }
+}
+
+/* Video Styling */
+#sectionDoremonyoutubeurl iframe {
+    border-radius: 20px;
+    border: 6px solid #ffffff;
+    width: 500px;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.7),
+        0 0 15px rgba(0, 128, 255, 0.6);
+}
+
+/* Back Button */
+#sectionDoremonyoutubeurl .btn {
+    margin-top: 20px;
+    padding: 14px 30px;
+    font-size: 18px;
+    border-radius: 25px;
+    border: none;
+    color: #fff;
+    background: #0075c9;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: 0.3s ease-in-out;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+}
+
+/* Button Hover */
+#sectionDoremonyoutubeurl .btn:hover {
+    background: #005b9b;
+    transform: scale(1.12) rotate(-2deg);
+}
+
+/* Page Fade Effect */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* 🌈 World of Cartoon Page Theme */
+.cartoon-world-bg {
+    background: linear-gradient(135deg, #a1c4fd, #c2e9fb, #fbc2eb, #a6c1ee);
+    background-size: 300% 300%;
+    animation: gradientFlow 8s ease infinite;
+    min-height: 100vh;
+    padding: 40px 20px;
+    text-align: center;
+    color: #222;
+    font-family: "Poppins", sans-serif;
+}
+
+@keyframes gradientFlow {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.cartoon-world-title {
+    font-family: "Comic Sans MS", "Fredoka One", cursive;
+    font-size: 3rem;
+    color: #ff007b;
+    text-shadow: 3px 3px 6px rgba(255, 255, 255, 0.7);
+    margin-bottom: 10px;
+}
+
+.cartoon-world-subtitle {
+    font-size: 1.2rem;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* 🟢 Cartoon Cards */
+.cartoon-card {
+    border-radius: 20px;
+    overflow: hidden;
+    transition: transform 0.1s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
+
+.cartoon-card img {
+    height: 200px;
+    object-fit: contain;
+}
+
+.cartoon-card:hover {
+
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.25);
+}
+
+/* 🎨 Cartoon-specific accents */
+.doremon-card:hover {
+    box-shadow: 0 0 25px rgba(0, 174, 255, 0.7);
+    /* Doraemon blue glow */
+}
+
+.mrbean-card:hover {
+    box-shadow: 0 0 25px rgba(160, 82, 45, 0.6);
+}
+
+.oggy-card:hover {
+    box-shadow: 0 0 25px rgba(0, 255, 150, 0.6);
+}
+
+.tom-card:hover {
+    box-shadow: 0 0 25px black;
+}
+
+.heidi-card:hover {
+    box-shadow: 0 0 25px green;
+}
+
+.spongebob-card:hover {
+    box-shadow: 0 0 25px rgba(255, 223, 0, 0.6);
+}
+
+.chhotabheem-card:hover {
+    box-shadow: 0 0 25px rgba(255, 102, 0, 0.7);
+    /* Bright orange glow for Chhota Bheem */
+}
+
+.smurfs-card:hover {
+    box-shadow: 0 0 25px rgba(0, 150, 255, 0.7);
+    /* Smurfs blue glow */
+}
+
+.shinchan-card:hover {
+    box-shadow: 0 0 25px rgba(255, 69, 0, 0.7);
+    /* Playful red-orange glow for Shinchan */
+}
+
+
+
+/* Cartoon Name */
+.cartoon-name {
+    font-family: "Comic Neue", cursive;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #222;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.card-img-top {
+    mix-blend-mode: multiply;
+    filter: contrast(1);
+
+}
+
+/* 🟤 Mr. Bean Theme */
+.mrbean-theme {
+    background: linear-gradient(135deg, #f5deb3, #d2b48c, #deb887);
+    height: 150vh;
+    font-family: "Comic Neue", "Poppins", sans-serif;
+    color: #3e2723;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Card container styling */
+.mrbean-card-container {
+
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(139, 69, 19, 0.4);
+    padding: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.mrbean-card-container:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 35px rgba(139, 69, 19, 0.6);
+}
+
+/* Carousel & image styling */
+.mrbean-carousel img {
+    border-radius: 20px;
+    object-fit: cover;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.mrbean-carousel img:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 20px rgba(160, 82, 45, 0.5);
+}
+
+/* Carousel controls */
+.mrbean-prev,
+.mrbean-next {
+    filter: invert(60%) sepia(80%) saturate(400%) hue-rotate(350deg);
+}
+
+/* Text section */
+.mrbean-text {
+    margin-top: 20px;
+
+    padding: 15px 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(160, 82, 45, 0.3);
+}
+
+.mrbean-text h1 {
+    color: #4b2e05;
+    font-family: "Lobster", cursive;
+    font-size: 2rem;
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.6);
+}
+
+.mrbean-text p {
+    font-size: 1rem;
+    color: #3e2723;
+    line-height: 1.6;
+}
+
+/* Button style */
+.mrbean-btn {
+    background-color: #8b4513;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 25px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.mrbean-btn:hover {
+    background-color: #a0522d;
+    box-shadow: 0 0 15px rgba(139, 69, 19, 0.6);
+}
+
+/* 💙 Oggy and the Cockroaches Theme */
+#sectionOggy .detailed-view-bg-container {
+    background: linear-gradient(135deg, #81d4fa, #e1f5fe, #b3e5fc);
+    height: 150vh;
+    padding-top: 20px;
+    background-size: cover;
+}
+
+#sectionOggy .detailed-view-heading {
+    color: #0277bd;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 38px;
+    text-align: center;
+    text-shadow: 3px 3px #ffeb3b;
+    letter-spacing: 1px;
+}
+
+#sectionOggy .detailed-view-card-container {
+
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(33, 150, 243, 0.6);
+    margin: 25px auto;
+    width: 80%;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sectionOggy .detailed-view-card-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(255, 111, 0, 0.7);
+}
+
+#sectionOggy .carousel-inner img {
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 150, 136, 0.6);
+    transition: transform 0.3s ease;
+}
+
+#sectionOggy .carousel-inner img:hover {
+    transform: scale(1.04);
+}
+
+#sectionOggy .carousel-control-prev-icon,
+#sectionOggy .carousel-control-next-icon {
+    filter: invert(55%) sepia(90%) saturate(400%) hue-rotate(180deg);
+}
+
+#sectionOggy .detailed-view-card-heading {
+    color: #00796b;
+    font-family: "Bree Serif", serif;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 15px;
+    text-shadow: 2px 2px #fff176;
+}
+
+#sectionOggy .detailed-view-card-description {
+    color: #01579b;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+    padding: 15px 25px;
+}
+
+#sectionOggy .btn-dark {
+    background-color: #ff9800;
+    border: none;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+
+#sectionOggy .btn-dark:hover {
+    background-color: #f57c00;
+    box-shadow: 0 0 20px #ffcc80, 0 0 40px #ffb300;
+    transform: scale(1.05);
+}
+
+/* 🧀 Tom and Jerry Theme */
+#sectionTomJerry .detailed-view-bg-container {
+    background: linear-gradient(135deg, #fff59d, #ffe082, #fff8e1);
+    height: 150vh;
+    background-size: cover;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+#sectionTomJerry .detailed-view-heading {
+    color: #e53935;
+    font-family: "Fredoka One", cursive;
+    font-size: 40px;
+    text-align: center;
+    text-shadow: 3px 3px #fff;
+    letter-spacing: 1px;
+}
+
+#sectionTomJerry .detailed-view-card-container {
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgba(255, 204, 0, 0.6);
+    width: 80%;
+    margin: 20px auto;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sectionTomJerry .detailed-view-card-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(244, 67, 54, 0.7);
+}
+
+#sectionTomJerry .carousel-inner img {
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 193, 7, 0.4);
+    transition: transform 0.3s ease;
+}
+
+#sectionTomJerry .carousel-inner img:hover {
+    transform: scale(1.04);
+}
+
+#sectionTomJerry .carousel-control-prev-icon,
+#sectionTomJerry .carousel-control-next-icon {
+    filter: invert(65%) sepia(80%) saturate(400%) hue-rotate(350deg);
+}
+
+#sectionTomJerry .detailed-view-card-heading {
+    color: #1565c0;
+    font-family: "Bree Serif", serif;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 2px 2px #fff59d;
+}
+
+#sectionTomJerry .detailed-view-card-description {
+    color: #3e2723;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+    padding: 15px 25px;
+    border-radius: 15px;
+}
+
+#sectionTomJerry .btn-dark {
+    background-color: #fbc02d;
+    border: none;
+    color: #000;
+    font-weight: bold;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+
+#sectionTomJerry .btn-dark:hover {
+    background-color: #f57f17;
+    color: #fff;
+    box-shadow: 0 0 20px #fbc02d, 0 0 40px #f57c00;
+    transform: scale(1.05);
+}
+
+/* 🌊 SpongeBob Theme */
+#sectionSpongebob .detailed-view-bg-container {
+    background: linear-gradient(180deg, #4fc3f7, #81d4fa, #b3e5fc);
+    min-height: 100vh;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+/* 🌊 SpongeBob Theme */
+#sectionSpongebob .detailed-view-bg-container {
+    background: linear-gradient(180deg, #4fc3f7, #81d4fa, #b3e5fc);
+    height: 150vh;
+    background-size: cover;
+    overflow: hidden;
+    position: relative;
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+/* Heading */
+#sectionSpongebob .detailed-view-heading {
+    color: #ffeb3b;
+    font-family: "Comic Neue", cursive;
+    font-size: 42px;
+    text-align: center;
+    text-shadow: 3px 3px #0288d1, 5px 5px #fff;
+    letter-spacing: 2px;
+}
+
+/* Card container */
+#sectionSpongebob .detailed-view-card-container {
+
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgba(0, 188, 212, 0.5);
+    margin: 25px auto;
+    width: 80%;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sectionSpongebob .detailed-view-card-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 40px rgba(0, 188, 212, 0.8);
+}
+
+/* Carousel Images */
+#sectionSpongebob .carousel-inner img {
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(255, 235, 59, 0.6);
+    transition: transform 0.4s ease;
+}
+
+#sectionSpongebob .carousel-inner img:hover {
+    transform: scale(1.05);
+}
+
+/* Carousel buttons */
+#sectionSpongebob .carousel-control-prev-icon,
+#sectionSpongebob .carousel-control-next-icon {
+    filter: invert(70%) sepia(90%) saturate(500%) hue-rotate(180deg);
+}
+
+/* Card heading */
+#sectionSpongebob .detailed-view-card-heading {
+    color: #ff9800;
+    font-family: "Baloo 2", cursive;
+    font-size: 28px;
+    text-align: center;
+    margin-top: 10px;
+    text-shadow: 2px 2px #fff;
+}
+
+/* Card description */
+#sectionSpongebob .detailed-view-card-description {
+    color: #01579b;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    text-align: justify;
+    padding: 15px 25px;
+}
+
+/* Button */
+#sectionSpongebob .btn-dark {
+    background-color: #00bcd4;
+    border: none;
+    color: #fff;
+    border-radius: 25px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+    margin: 0 auto;
+    display: block;
+}
+
+#sectionSpongebob .btn-dark:hover {
+    background-color: #0097a7;
+    box-shadow: 0 0 20px #80deea, 0 0 40px #4dd0e1;
+    transform: scale(1.05);
+}
+
+/*🌸 Heidi Theme */
+#sectionHeidi .heidi-theme {
+    background: linear-gradient(180deg, #a8e6cf, #dcedc1, #ffd3b6, #ffaaa5);
+    height: 100vh;
+    background-size: cover;
+    font-family: "Playfair Display", serif;
+    color: #2e4600;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Heading */
+#sectionHeidi .detailed-view-heading {
+    font-family: "Caveat", cursive;
+    font-size: 40px;
+    color: #33691e;
+    text-shadow: 3px 3px #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Card container */
+#sectionHeidi .heidi-card-container {
+
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(46, 125, 50, 0.4);
+    margin: 20px auto;
+    width: 80%;
+    padding-bottom: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sectionHeidi .heidi-card-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(76, 175, 80, 0.6);
+}
+
+/* Carousel Images */
+#sectionHeidi .carousel-inner img {
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(139, 195, 74, 0.4);
+    transition: transform 0.3s ease;
+}
+
+#sectionHeidi .carousel-inner img:hover {
+    transform: scale(1.05);
+}
+
+/* Carousel Controls */
+#sectionHeidi .carousel-control-prev-icon,
+#sectionHeidi .carousel-control-next-icon {
+    filter: invert(60%) sepia(80%) saturate(400%) hue-rotate(90deg);
+}
+
+/* About Text */
+#sectionHeidi .detailed-view-card-heading {
+    color: #1b5e20;
+    font-family: "Bree Serif", serif;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+#sectionHeidi .detailed-view-card-description p {
+    color: #33691e;
+    font-size: 15px;
+    line-height: 1.7;
+    padding: 0 25px;
+    text-align: justify;
+}
+
+/* Button */
+#sectionHeidi .heidi-btn {
+    background-color: #81c784;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+#sectionHeidi .heidi-btn:hover {
+    background-color: #388e3c;
+    box-shadow: 0 0 20px #a5d6a7, 0 0 40px #81c784;
+    transform: scale(1.05);
+}
+
+/* 💙 Smurfs Theme */
+#sectionSmurfs .smurfs-theme {
+    background: linear-gradient(180deg, #87cefa, #b3e5fc, #e1f5fe);
+    height: 150vh;
+    font-family: "Fredoka One", cursive;
+    color: #0d47a1;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/* Heading */
+#sectionSmurfs .detailed-view-heading {
+    font-size: 42px;
+    color: #01579b;
+    text-shadow: 3px 3px #ffffff;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Card Container */
+#sectionSmurfs .smurfs-card-container {
+
+    border-radius: 25px;
+    box-shadow: 0 0 30px rgba(33, 150, 243, 0.4);
+    margin: 20px auto;
+    width: 80%;
+    padding-bottom: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sectionSmurfs .smurfs-card-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(0, 150, 255, 0.6);
+}
+
+/* Carousel Images */
+#sectionSmurfs .carousel-inner img {
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(3, 169, 244, 0.4);
+    transition: transform 0.3s ease;
+}
+
+#sectionSmurfs .carousel-inner img:hover {
+    transform: scale(1.05);
+}
+
+/* Carousel Controls */
+#sectionSmurfs .smurfs-prev,
+#sectionSmurfs .smurfs-next {
+    filter: invert(60%) sepia(100%) saturate(600%) hue-rotate(190deg);
+}
+
+/* About Section */
+#sectionSmurfs .detailed-view-card-heading {
+    color: #0d47a1;
+    font-family: "Baloo 2", cursive;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+#sectionSmurfs .detailed-view-card-description p {
+    color: #1565c0;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 0 25px;
+    text-align: justify;
+}
+
+/* Button */
+#sectionSmurfs .smurfs-btn {
+    background-color: #1e88e5;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+#sectionSmurfs .smurfs-btn:hover {
+    background-color: #0d47a1;
+    box-shadow: 0 0 20px #64b5f6, 0 0 40px #2196f3;
+    transform: scale(1.05);
+}
+
+/* Shinchan Theme */
+.shinchan-theme {
+    background: linear-gradient(135deg, #fff6a3, #ffd460, #ff9a3c);
+    height: 150vh;
+    color: #3a1c00;
+    font-family: "Comic Neue", cursive;
+    text-align: center;
+    padding: 20px;
+}
+
+.shinchan-card {
+    border-radius: 20px;
+    box-shadow: 0 0 25px rgba(255, 165, 0, 0.4);
+    overflow: hidden;
+}
+
+.shinchan-carousel-inner {
+    border-radius: 20px;
+}
+
+.shinchan-image {
+    border-radius: 20px;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.shinchan-image:hover {
+    transform: scale(1.04);
+    box-shadow: 0 0 25px rgba(255, 153, 51, 0.6);
+}
+
+.shinchan-indicators li {
+
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    opacity: 0.6;
+    transition: opacity 0.3s, transform 0.3s;
+}
+
+.shinchan-indicators .active {
+    opacity: 1;
+    transform: scale(1.3);
+}
+
+.shinchan-prev,
+.shinchan-next {
+    filter: invert(40%) sepia(90%) saturate(600%) hue-rotate(5deg);
+}
+
+.shinchan-text {
+    background-color: transparent;
+    border-radius: 0 0 20px 20px;
+    text-align: center;
+    padding: 20px;
+}
+
+.shinchan-btn {
+    background-color: #ff4500;
+    border: none;
+    border-radius: 25px;
+    padding: 8px 25px;
+    color: white;
+    font-weight: bold;
+    margin: 0 auto;
+    display: block;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shinchan-btn:hover {
+    background-color: #ff651a;
+    box-shadow: 0 0 15px #ff651a;
+}
+
+.detailed-view-heading {
+    font-family: "Comic Sans MS", "Fredoka One", cursive;
+    font-size: 2.5rem;
+    color: #ff4500;
+    text-shadow: 2px 2px 6px rgba(255, 255, 255, 0.8);
+}
+
+/* Shinchan Video Styling */
+#sectionshinchanyoutubeurl iframe {
+    border: 5px solid #ffcc00;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ff5050;
+}
+
+/* 💪 Chhota Bheem Theme */
+#sectionChhotaBheem .chhota-bheem-theme {
+    background: linear-gradient(180deg, #ffcc80, #ffb74d, #f57c00);
+    height: 150vh;
+    font-family: "Baloo 2", cursive;
+    color: #4e2600;
+    text-align: center;
+    padding-top: 30px;
+    background-size: cover;
+}
+
+/* Heading */
+#sectionChhotaBheem .detailed-view-heading {
+    font-family: "Bangers", cursive;
+    font-size: 42px;
+    color: #e65100;
+    text-shadow: 3px 3px #fff176;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+/* Card Container */
+#sectionChhotaBheem .chhota-bheem-card-container {
+    border-radius: 25px;
+    box-shadow: 0 0 25px rgba(255, 152, 0, 0.5);
+    margin: 20px auto;
+    width: 80%;
+    padding-bottom: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#sectionChhotaBheem .chhota-bheem-card-container:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 35px rgba(255, 111, 0, 0.7);
+}
+
+/* Carousel Images */
+#sectionChhotaBheem .carousel-inner img {
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(255, 143, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+#sectionChhotaBheem .carousel-inner img:hover {
+    transform: scale(1.05);
+}
+
+/* Carousel Controls */
+#sectionChhotaBheem .bheem-prev,
+#sectionChhotaBheem .bheem-next {
+    filter: invert(60%) sepia(100%) saturate(400%) hue-rotate(15deg);
+}
+
+/* About Section */
+#sectionChhotaBheem .detailed-view-card-heading {
+    color: #e65100;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 26px;
+    margin-top: 20px;
+}
+
+#sectionChhotaBheem .detailed-view-card-description p {
+    color: #4e2600;
+    font-size: 16px;
+    line-height: 1.7;
+    padding: 0 25px;
+    text-align: justify;
+}
+
+/* Button */
+#sectionChhotaBheem .bheem-btn {
+    background-color: #f57c00;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    padding: 10px 25px;
+    margin-top: 15px;
+    transition: all 0.3s ease;
+}
+
+#sectionChhotaBheem .bheem-btn:hover {
+    background-color: #e65100;
+    box-shadow: 0 0 20px #ffcc80, 0 0 40px #ff9800;
+    transform: scale(1.05);
+}

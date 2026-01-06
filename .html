@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div id="sectionhome">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">
+                        Home
+                        <span class="sr-only">(current)</span>
+                    </a>
+                    <a class="nav-link" href="#">Cartoon list</a>
+                    <a class="nav-link" href="#">Shows</a>
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </div>
+            </div>
+        </nav>
+        <div class="bg-container d-flex flex-column justify-content-center">
+            <div class="tourism-card">
+                <h1 class="main-heading neon-hover">Stories in Sketches</h1>
+                <p class="paragraph">In to World of Cartoon</p>
+                <button class="button " onclick="display('sectionfavoriteplaces')">Get Started</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionfavoriteplaces">
+        <div class="cartoon-world-bg">
+            <h1 class="cartoon-world-title">🌍 World of Cartoons 🎨</h1>
+            <p class="cartoon-world-subtitle">
+                Step into a colorful world of laughter, friendship, and fun!
+                Click on your favorite cartoon to explore more.
+            </p>
+
+            <div class="container mt-5">
+                <div class="row">
+
+                    <!-- SpongeBob -->
+                    <div class="col-6 col-sm-6 col-md-4 mb-4">
+                        <div class="cartoon-card spongebob-card" onclick="display('sectionSpongebob')">
+                            <img src="https://i.pinimg.com/236x/e9/8b/45/e98b45b9e1b1bcc20b5d0e22d6bcd9d9.jpg" class="w-100 card-img-top " />
+                            <h5 class="cartoon-name">Sponge Bob</h5>
+                        </div>
+                    </div>
+
+                    <!-- Doraemon -->
+                    <div class="col-6 col-sm-6 col-md-4 mb-4">
+                        <div class="cartoon-card doremon-card" onclick="display('sectionDoremon')">
+                            <img src="https://i.pinimg.com/736x/30/1d/d3/301dd3b98c4ba7e23a57ac537e1393b5.jpg" class="w-100 card-img-top " />
+                            <h5 class="cartoon-name">Doraemon</h5>
+                        </div>
+                    </div>
+
+                    <!-- Oggy -->
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="cartoon-card oggy-card" onclick="display('sectionOggy')">
+                            <img src="https://wallpapers.com/images/hd/oggy-and-the-cockroaches-chasing-xrtiqsrcwk82tmcq.jpg" class="w-100 card-img-top " />
+                            <h5 class="cartoon-name">Oggy & Cockroaches</h5>
+                        </div>
+                    </div>
+
+                    <!-- Mr Bean -->
+                    <div class="col-6 col-sm-6 col-md-4 mb-4">
+                        <div class="cartoon-card mrbean-card" onclick="display('sectionMrbean')">
+                            <img src="https://m.media-amazon.com/images/I/81m-2TAGWfL._AC_UF894,1000_QL80_.jpg" class="w-100 card-img-top " />
+                            <h5 class="cartoon-name">Mr. Bean</h5>
+                        </div>
+                    </div>
+
+                    <!-- Tom & Jerry -->
+                    <div class="col-6 col-sm-6 col-md-4 mb-4">
+                        <div class="cartoon-card tom-card" onclick="display('sectionTomJerry')">
+                            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnBTxB4FS7tVFjv3iu_WNLJRwZ_8o8pxrCC3ivxWMg7KYqYy8vBXCOB8Imaz461NxVk__E_wZ18p_R_7PnINbyWcNrY6drMHqHxz8ziCZuxPCPq0uCZET1RX1VuwDir3SuFefehmDPauDV/s1600/Tom+and+jerry+cartoon.jpg" class="w-100 card-img-top " />
+                            <h5 class="cartoon-name">Tom & Jerry</h5>
+                        </div>
+                    </div>
+
+                    <!-- Heidi -->
+                    <div class="col-12 col-sm-6 col-md-4 mb-4">
+                        <div class="cartoon-card heidi-card" onclick="display('sectionHeidi')">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5-_j7k-d_neh5hWyt15fZdsxP3AooTsI8Iw&s" class="w-100 card-img-top " />
+                            <h5 class="cartoon-name">Heidi</h5>
+                        </div>
+                    </div>
+
+                    <!-- Chhota Bheem -->
+                    <div class="col-6 col-sm-6 col-md-4 mb-4">
+                        <div class="cartoon-card chhotabheem-card" onclick="display('sectionChhotaBheem')">
+                            <img src="https://lh6.googleusercontent.com/proxy/FOJFflutdMIbRIKcCbpPoueDuEm0oyAouGOMfJgZ6ogY5AwhmPqjIo9aULjlkx6FHlnfnletxKTqYrJJVdrbINcFEBfescl_T-EjW2YBb1ta1EFfOOJAgGtDJAX4rx-sBeDB" class="w-100 card-img-top " />
+                            <h5 class="cartoon-name">Chhota Bheem</h5>
+                        </div>
+                    </div>
+
+                    <!-- Shinchan -->
+                    <div class="col-6 col-sm-6 col-md-4 mb-4">
+                        <div class="cartoon-card shinchan-card" onclick="display('sectionShinchan')">
+                            <img src="https://i.pinimg.com/736x/b6/2e/b8/b62eb8c0b75869570d98af821b96b8dc.jpg" class="w-100 card-img-top " />
+                            <h5 class="cartoon-name">Shinchan</h5>
+                        </div>
+                    </div>
+
+                    <!-- Smurfs -->
+                    <div class="col12 col-sm-6 col-md-4 mb-4">
+                        <div class="cartoon-card smurfs-card" onclick="display('sectionSmurfs')">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKJg_V96GDJ6QhRGcP8Fd2HYXtXARwilI9Eg&s" class="w-100 card-img-top " />
+                            <h5 class="cartoon-name">Smurfs</h5>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <button class="btn btn-dark doraemon-btn mt-3" onclick="display('sectionhome')">Back</button>
+        </div>
+    </div>
+
+
+    <div id="sectionDoremonyoutubeurl" style="text-align:center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/mimoQBL0u5w" frameborder="0" allowfullscreen>
+        </iframe>
+        <button class="btn btn-dark doraemon-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+
+    </div>
+    <div id="sectionDoremon">
+        <div class="detailed-view-bg-container doraemon-theme">
+            <a href="https://www.google.com/search?sca_esv=6f10166bc04ebec3&sxsrf=AE3TifMwGa35wzOF5Q6-truVdGDCcY-lTg:1763617018594&q=doraemon+cartoon&source=lnms&fbs=AIIjpHxU7SXXniUZfeShr2fp4giZ1Y6MJ25_tmWITc7uy4KIekvkPKxAnJVek4Gm3Ko47EoXtrmIt3YOQcdV2QJa1GiKZL6upHUPhKPf8E2WbLJ9Dx-MRFe38i6O5tCwdriX_ruhmNnldQ_k8D4gDTxxlI9Xxcd9vguUuxTp7X0a8a2ZxZ8kmStO0zqkHoybpUEDXbFVk-kokXGOcF4q_V8NLpq3GsXhiw&sa=X&ved=2ahUKEwi636avgYCRAxUxyDgGHbfhGu0Q0pQJegQICRAB&biw=1536&bih=826&dpr=1.25" target="_blank">
+                <h1 class="detailed-view-heading">Doraemon</h1>
+            </a>
+            <div class="detailed-view-card-container doraemon-card">
+                <div id="carouselDoremon" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators doraemon-indicators">
+                        <li data-target="#carouselDoremon" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselDoremon" data-slide-to="1"></li>
+                        <li data-target="#carouselDoremon" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner doraemon-carousel-inner" onclick="display('sectionDoremonyoutubeurl')">
+                        <div class="carousel-item active">
+                            <img src="https://www.hdwallpapers.in/download/nobita_nobi_doraemon_shizuka_minamoto_takeshi_goda_suneo_honekawa_in_sky_background_hd_cartoon-1600x900.jpg" class="d-block w-100 doraemon-image" alt="Doraemon and friends" />
+                        </div>
+
+                        <div class="carousel-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzUfrsmpzlpJ9obbHl9HqehK7feBoXEMCY2Q&s" class="d-block w-100 doraemon-image" alt="Doraemon gadgets" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4izc7jF9fzG7aT437LWeC6uUQEupwuRzefg&s" class="d-block w-100 doraemon-image" alt="Doraemon fun" />
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselDoremon" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon doraemon-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselDoremon" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon doraemon-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="detailed-view-card-text-container doraemon-text">
+                    <h1 class="detailed-view-card-heading">About the Show</h1>
+                    <p class="detailed-view-card-description">
+                        Doraemon is a Japanese anime about a robotic cat from the 22nd century who travels back in time to help Nobita Nobi — a clumsy but kind-hearted boy. Using futuristic gadgets from his four-dimensional pocket, Doraemon helps Nobita face challenges and learn valuable lessons in humor-filled adventures.
+                    </p>
+                </div>
+
+                <button class="btn btn-dark doraemon-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionMrbeanyoutubeurl" style="text-align:center;">
+        <iframe width="560" height="315" src=" https://www.youtube.com/embed/yBTZmd3hwwc" frameborder="0" allowfullscreen>
+        </iframe>
+        <button class="btn btn-dark dorae-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+
+    </div>
+    <div id="sectionMrbean">
+        <div class="mrbean-theme">
+            <a href="https://www.google.com/search?q=mr+bean+cartoon+explanation&sca_esv=f46f8e3b711902b9&sxsrf=AE3TifObrS4G1XS5xAAJ3mfdmQbADCXAXA%3A1763646049389&ei=YRofaZ3HF--sseMPg9Tk2Qs&udm=2&oq=mr+&gs_lp=Egxnd3Mtd2l6LXNlcnAiA21yICoCCAAyChAjGMkCGPAFGCcyChAjGPAFGMkCGCcyBBAuGCcyChAjGPAFGMkCGCcyDhAuGJECGLEDGIAEGIoFMgoQLhhDGIAEGIoFMg0QLhhDGNQCGIAEGIoFMgoQABiABBiKBRhDMgoQLhiABBiKBRhDMg0QLhiABBiKBRhDGNQCSPgtUKkRWOgYcAF4AZABAJgByAKgAecGqgEFMi0yLjG4AQHIAQD4AQGYAgSgApgHqAIRwgIHECMY6gIYJ8ICBxAuGOoCGCfCAhkQLhiABBiKBRhDGOcGGMgDGOoCGLQC2AEBwgIcEC4YgAQYigUYQxjnBhjUAhjIAxjqAhi0AtgBAcICHBAuGEMY1AIYgAQYigUY5wYYyAMY6gIYtALYAQHCAgQQIxgnwgILEC4YgAQYigUYkQLCAg4QLhiABBiKBRiRAhjUAsICCxAAGIAEGLEDGIMBwgIIEAAYgAQYsQPCAgUQABiABMICCxAuGJECGIAEGIoFmAMRugYGCAEQARgIkgcHMS4wLjIuMaAH7D-yBwUyLTIuMbgHhgfCBwMzLTTIByU&sclient=gws-wiz-serp" target="_blank">
+
+                <h1 class="detailed-view-heading">Mr.Bean</h1>
+            </a>
+            <div class="mrbean-card-container">
+                <div id="mrbeanCarousel" class="carousel slide mrbean-carousel" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#mrbeanCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#mrbeanCarousel" data-slide-to="1"></li>
+                        <li data-target="#mrbeanCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" onclick="display('sectionMrbeanyoutubeurl')">
+                            <img src="https://v3img.voot.com/v3Storage/assets/mr_bean_animated_16x9-1688126406198.jpg" class="d-block w-100" alt="Mr. Bean Opening" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wp.clutchpoints.com/wp-content/uploads/2024/01/mr-bean-animated-show-gets-surprising-season-4-update.webp?w=1200" class="d-block w-100" alt="Mr. Bean Funny Scene" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ytimg.com/vi/NkIIYFv7Tk0/maxresdefault.jpg" class="d-block w-100" alt="Mr. Bean Adventures" />
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#mrbeanCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon mrbean-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#mrbeanCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon mrbean-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="mrbean-text">
+                    <h1>About the Show</h1>
+                    <p>
+                        Mr. Bean is a comical character known for his childlike mischief and creative problem-solving.
+                        Whether he's dealing with his teddy, driving his mini car, or getting into awkward everyday situations,
+                        his silent humor and expressions bring laughter to all ages.
+                    </p>
+                </div>
+
+                <button class="mrbean-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionoggyyoutubeurl" style="text-align:center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/BstW5GDKVMU" frameborder="0" allowfullscreen>
+        </iframe>
+        <button class="btn btn-dark dorae-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+
+    </div>
+    <div id="sectionOggy">
+        <div class="detailed-view-bg-container">
+            <a href="https://www.google.com/search?q=oggy+and+cockroch+cartoon+explanation&sca_esv=f46f8e3b711902b9&udm=2&sxsrf=AE3TifM_2KQcc9YkvEvlqMa1VhGddqBMXQ%3A1763646486360&ei=FhwfaaPhFaeb4-EPouWosAY&oq=oggy+&gs_lp=Egtnd3Mtd2l6LWltZyIFb2dneSAqAggAMgcQIxjJAhgnMgcQIxjJAhgnMg0QABiABBiKBRhDGLEDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDMgoQABiABBiKBRhDSN4kUNYLWPUScAF4AJABAJgBjQegAY0dqgEFNS0yLjO4AQPIAQD4AQGYAgagArAdqAIKwgIKECMYyQIY6gIYJ8ICCBAAGIAEGLEDwgILEAAYgAQYsQMYgwHCAgUQABiABJgDCJIHBzEuNS00LjGgB-4jsgcFNS00LjG4B6gdwgcHMC4zLjIuMcgHGw&sclient=gws-wiz-img" target="_blank">
+                <h1 class="detailed-view-heading">Oggy and the Cockroaches</h1>
+            </a>
+            <div class="detailed-view-card-container">
+                <div id="oggyCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#oggyCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#oggyCarousel" data-slide-to="1"></li>
+                        <li data-target="#oggyCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" onclick="display('sectionoggyyoutubeurl')">
+                            <img src="https://eu-images.contentstack.com/v3/assets/blt8770191dea35bccc/bltff057ed4a15b068c/67893e2549c1b236dafd55d6/_Oggy_and_the_Cockroaches_Xilam_Animation.png?width=1280&auto=webp&quality=80&format=jpg&disable=upscale" class="d-block w-100" alt="Oggy and Friends">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpapers.com/images/hd/jackand-oggy-and-the-cockroaches-fanart-8js3zb0uzwfqcky7.jpg" class="d-block w-100" alt="Cockroaches Prank">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.ytimg.com/vi/3EFEzSRWvME/mqdefault.jpg" class="d-block w-100" alt="Oggy's House">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#oggyCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#oggyCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="detailed-view-card-description">
+                    <h2 class="detailed-view-card-heading">About the Show</h2>
+                    <p>
+                        “Oggy and the Cockroaches” is a hilarious cartoon that follows the daily chaos between Oggy,
+                        a lazy blue cat, and three mischievous cockroaches—Joey, Dee Dee, and Marky.
+                        Their never-ending pranks turn Oggy’s quiet life into total mayhem, creating nonstop laughter
+                        and fun for all ages!
+                    </p>
+                </div>
+
+                <button class="btn btn-dark" onclick="display('sectionfavoriteplaces')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectiontomjerryyoutubeurl" style="text-align:center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/_GE6zf_hH48" frameborder="0" allowfullscreen>
+        </iframe>
+        <button class="btn btn-dark dorae-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+
+    </div>
+    <div id="sectionTomJerry">
+        <div class="detailed-view-bg-container">
+            <a href="https://www.google.com/search?q=tom+and+jerry+cartoon+explanation&sca_esv=f46f8e3b711902b9&udm=2&sxsrf=AE3TifNlCHyS3j9fS1k3iYC1xsfDmz0K8g%3A1763646560499&ei=YBwfaeWlHtjF4-EPoejR8QE&oq=t&gs_lp=Egtnd3Mtd2l6LWltZyIBdCoCCAEyBxAjGMkCGCcyBxAjGMkCGCcyChAAGIAEGIoFGEMyCxAAGIAEGLEDGIMBMggQABiABBixAzIFEAAYgAQyCxAAGIAEGLEDGIMBMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDSKU5UOUmWOUmcAF4AJABAJgBjAKgAYwCqgEDMi0xuAEByAEA-AEBmAICoAKfAqgCCsICChAjGMkCGOoCGCeYAwuSBwUxLjAuMaAH3wayBwMyLTG4B5MCwgcFMi0xLjHIBw8&sclient=gws-wiz-img" target="_blank">
+                <h1 class="detailed-view-heading">Tom and Jerry</h1>
+            </a>
+            <div class="detailed-view-card-container">
+                <div id="tomJerryCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#tomJerryCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#tomJerryCarousel" data-slide-to="1"></li>
+                        <li data-target="#tomJerryCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" onclick="display('sectiontomjerryyoutubeurl')">
+                            <img src="https://variety.com/wp-content/uploads/2023/07/Tom-and-Jerry-Singapore-series-poster.jpg?w=1000&h=563&crop=1" class="d-block w-100">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://images.hdqwalls.com/wallpapers/tom-and-jerry-natural-masterpiece-lu.jpg" class="d-block w-100" alt="Funny Tom and Jerry Scene">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpapers.com/images/hd/tom-and-jerry-cartoon-sg5qziu2i9apyvfw.jpg" class="d-block w-100" alt="Tom and Jerry Friendship">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#tomJerryCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#tomJerryCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="detailed-view-card-description">
+                    <h2 class="detailed-view-card-heading">About the Show</h2>
+                    <p>
+                        “Tom and Jerry” is one of the most iconic animated series ever created,
+                        featuring endless chases, hilarious traps, and timeless humor.
+                        Tom, the clever but unlucky cat, and Jerry, the smart little mouse,
+                        create nonstop fun and chaos in every episode!
+                    </p>
+                </div>
+
+                <button class="btn btn-dark" onclick="display('sectionfavoriteplaces')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionSpongebobyoutubeurl" style="text-align:center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xRfwXBitjc8" frameborder="0" allowfullscreen>
+        </iframe>
+        <button class="btn btn-dark dorae-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+
+    </div>
+    <div id="sectionSpongebob">
+        <div class="detailed-view-bg-container">
+            <a href="https://www.google.com/search?q=spongebob+cartoon+explanation&oq=spo&gs_lcrp=EgZjaHJvbWUqCAgDEEUYJxg7Mg8IABBFGDkYgwEYsQMYgAQyGAgBEC4YQxiDARjHARixAxjRAxiABBiKBTIPCAIQLhhDGLEDGIAEGIoFMggIAxBFGCcYOzIGCAQQRRg7MgwIBRAAGEMYgAQYigUyDAgGEC4YQxiABBiKBTISCAcQABhDGIMBGLEDGIAEGIoFMgwICBAAGEMYgAQYigUyBwgJEAAYjwLSAQk1MzEzajBqMTWoAgmwAgHxBYLvtiIkG4V2&sourceid=chrome&ie=UTF-8" target="_blank">
+                <h1 class="detailed-view-heading">SpongeBob SquarePants</h1>
+            </a>
+            <div class="detailed-view-card-container">
+                <div id="spongebobCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#spongebobCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#spongebobCarousel" data-slide-to="1"></li>
+                        <li data-target="#spongebobCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://i0.wp.com/www.oxfordstudent.com/wp-content/uploads/2018/11/Spongebob-2.png?fit=1920%2C1080&ssl=1" class="d-block w-100" alt="SpongeBob and Patrick" onclick="display('sectionSpongebobyoutubeurl')">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://static0.polygonimages.com/wordpress/wp-content/uploads/chorus/uploads/chorus_asset/file/13587247/That_s_his_eager_face.png?w=1200&h=628&fit=crop" class="d-block w-100" alt="Krusty Krab">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.teenvogue.com/photos/5d22079c9a36e800081bc24e/16:9/w_2560%2Cc_limit/SBSP%252020th%2520Anniversary%2520Press%2520Art.jpg" class="d-block w-100" alt="Under the Sea">
+
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#spongebobCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#spongebobCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="detailed-view-card-description">
+                    <h2 class="detailed-view-card-heading">About the Show</h2>
+                    <p>
+                        SpongeBob SquarePants is an optimistic and energetic sponge living in the underwater city of Bikini Bottom.
+                        Alongside his best friend Patrick, he embarks on hilarious adventures filled with laughter, fun, and good vibes.
+                        From flipping Krabby Patties to jellyfishing, SpongeBob’s world reminds us to stay positive no matter what!
+                    </p>
+                </div>
+
+                <button class="btn btn-dark" onclick="display('sectionfavoriteplaces')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionHeidiyoutubeurl" style="text-align:center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/uD2TFMPjlRs" frameborder="0" allowfullscreen>
+        </iframe>
+        <button class="btn btn-dark dorae-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+
+    </div>
+    <div id="sectionHeidi">
+        <div class="detailed-view-bg-container heidi-theme">
+            <a href="https://www.google.com/search?q=heidi+cartoon&sca_esv=f46f8e3b711902b9&udm=2&sxsrf=AE3TifOhAtC0rCOiVdb5M7DtDHQYJkwoww%3A1763646663182&ei=xxwfafHpCuON4-EPxLi48QM&oq=heidi+&gs_lp=Egtnd3Mtd2l6LWltZyIGaGVpZGkgKgIIAjIHECMYyQIYJzIHECMYyQIYJzINEAAYgAQYigUYQxixAzINEAAYgAQYigUYQxixAzIKEAAYgAQYigUYQzIKEAAYgAQYigUYQzIKEAAYgAQYigUYQzIKEAAYgAQYigUYQzIKEAAYgAQYigUYQzIKEAAYgAQYigUYQ0jxVlCiC1iCO3ABeACQAQCYAfsBoAGBC6oBAzItNrgBA8gBAPgBAZgCB6ACqwuoAgrCAgoQIxjJAhjqAhgnwgILEAAYgAQYsQMYgwHCAggQABiABBixA5gDCZIHBTEuMC42oAe5KbIHAzItNrgHoQvCBwMyLTfIByA&sclient=gws-wiz-img" target="_blank">
+
+                <h1 class="detailed-view-heading">Heidi</h1>
+            </a>
+            <div class="detailed-view-card-container heidi-card-container">
+                <div id="heidiCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#heidiCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#heidiCarousel" data-slide-to="1"></li>
+                        <li data-target="#heidiCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner" onclick="display('sectionHeidiyoutubeurl')">
+                        <div class="carousel-item active">
+                            <img src="https://cdn.browsercam.com/com.taptaptales.heidigamesforkids-header.png" class="d-block w-100" alt="Heidi in the Alps">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2022/08/Heidi-Girl-of-the-Alps.jpg" class="d-block w-100" alt="Heidi and Peter">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://assets.puzzlefactory.com/puzzle/248/577/original.jpg" class="d-block w-100" alt="Heidi and Grandfather">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#heidiCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#heidiCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="detailed-view-card-description">
+                    <h2 class="detailed-view-card-heading">About the Show</h2>
+                    <p>
+                        “Heidi” is a heartwarming story about a joyful young girl who lives in the Swiss Alps with her grandfather.
+                        Surrounded by nature, goats, and mountains, Heidi’s adventures teach kindness, friendship, and the beauty of simple living.
+                        Her love for the mountains inspires everyone she meets.
+                    </p>
+                </div>
+
+                <button class="btn btn-dark heidi-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionchhotabheemyoutubeurl" style="text-align:center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/yUD0uPHFD4A" frameborder="0" allowfullscreen>
+        </iframe>
+        <button class="btn btn-dark dorae-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+
+    </div>
+    <div id="sectionChhotaBheem">
+        <div class="detailed-view-bg-container chhota-bheem-theme">
+            <a href="https://www.google.com/search?q=chhota+bheem+explanation&sca_esv=f46f8e3b711902b9&udm=2&sxsrf=AE3TifPHFyJCTQ7ejHxg9DxSLiF1yHl7xg%3A1763646731761&ei=Cx0fabCQLoDe4-EP2Z2x0Qo&oq=chhota+bheem+ex&gs_lp=Egtnd3Mtd2l6LWltZyIPY2hob3RhIGJoZWVtIGV4KgIIATIFEAAYgAQyBRAAGIAEMgUQABiABDIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHjIEEAAYHkjQjQJQ_xZYgsEBcAF4AJABAJgB9wagAaErqgENMC4xLjQuMS4xLjMuMrgBA8gBAPgBAZgCCKAC4BKoAgrCAgoQIxjJAhjqAhgnwgIHECMYyQIYJ8ICChAAGIAEGIoFGEPCAggQABiABBixA8ICCxAAGIAEGLEDGIMBmAMGkgcJMS4xLjQuMC4yoAfZPbIHCTAuMS40LjAuMrgH2RLCBwUwLjIuNsgHIQ&sclient=gws-wiz-img" target="_blank">
+
+                <h1 class="detailed-view-heading">Chhota Bheem</h1>
+            </a>
+            <div class="detailed-view-card-container chhota-bheem-card-container">
+                <div id="bheemCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#bheemCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#bheemCarousel" data-slide-to="1"></li>
+                        <li data-target="#bheemCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner" onclick="display('sectionchhotabheemyoutubeurl')">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/1200x/32/80/ee/3280ee9b55b406565f46cc300832c3b0.jpg" class="d-block w-100" alt="Chhota Bheem and Friends">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/29/1b/d4/291bd4e24576b86484f23376f474c48b.jpg" class="d-block w-100" alt="Chhota Bheem Adventures">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/07/ae/be/07aebe51c0d4b324fbedceca37d9f463.jpg" class="d-block w-100" alt="Bheem in Dholakpur">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#bheemCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon bheem-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#bheemCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon bheem-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="detailed-view-card-description">
+                    <h2 class="detailed-view-card-heading">About the Show</h2>
+                    <p>
+                        “Chhota Bheem” follows the adventures of a brave and kind boy named Bheem who lives in the fictional kingdom of Dholakpur.
+                        With his strength, intelligence, and love for laddus, he protects his village from villains and helps his friends—Chutki, Raju, and Jaggu—in exciting adventures filled with action, humor, and friendship.
+                    </p>
+                </div>
+
+                <button class="btn btn-dark bheem-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionsmurfsyoutubeurl" style="text-align:center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xoLOsbgKRoM" frameborder="0" allowfullscreen>
+        </iframe>
+        <button class="btn btn-dark dorae-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+
+    </div>
+    <div id="sectionSmurfs">
+        <div class="detailed-view-bg-container smurfs-theme">
+            <a href="https://www.google.com/search?q=smurfs&sca_esv=f46f8e3b711902b9&udm=2&sxsrf=AE3TifPnNN7ChwPIhTP2pb-0IdSjt4hfHA%3A1763646807423&ei=Vx0faYTLGYbZ4-EP7MerkA4&oq=smu&gs_lp=Egtnd3Mtd2l6LWltZyIDc211KgIIADIHECMYyQIYJzIHECMYyQIYJzIIEAAYgAQYsQMyCBAAGIAEGLEDMggQABiABBixAzIFEAAYgAQyBRAAGIAEMggQABiABBixAzIIEAAYgAQYsQMyCBAAGIAEGLEDSOUoUPUHWKEXcAF4AJABAJgB-AGgAbQFqgEFMC4xLjK4AQPIAQD4AQGYAgSgAtAFqAIKwgIKECMYyQIY6gIYJ8ICChAAGIAEGIoFGEPCAgsQABiABBixAxiDAZgDCZIHBTEuMC4zoAe2FLIHAzItM7gHxwXCBwMyLTTIBxY&sclient=gws-wiz-img" target="_blank">
+
+                <h1 class="detailed-view-heading">The Smurfs</h1>
+            </a>
+            <div class="detailed-view-card-container smurfs-card-container">
+                <div id="smurfsCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#smurfsCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#smurfsCarousel" data-slide-to="1"></li>
+                        <li data-target="#smurfsCarousel" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active" onclick="display('sectionsmurfsyoutubeurl')">
+                            <img src="https://i.pinimg.com/736x/51/11/3f/51113fa221f151058a3b0c3f0ad48a63.jpg" class="d-block w-100" alt="Smurfs Village">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/1200x/26/6d/64/266d64e65198f1483a9ab8beb3c463d7.jpg" class="d-block w-100" alt="Smurfette and friends">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://i.pinimg.com/736x/2b/01/5c/2b015c187c70616fa2fd87778585aaf4.jpg" class="d-block w-100" alt="Papa Smurf and friends">
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#smurfsCarousel" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon smurfs-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#smurfsCarousel" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon smurfs-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="detailed-view-card-description smurfs-text">
+                    <h2 class="detailed-view-card-heading">About the Show</h2>
+                    <p>
+                        “The Smurfs” is a classic animated series featuring tiny blue creatures who live in a magical village hidden in the forest.
+                        Led by the wise Papa Smurf, they embark on fun-filled adventures, outsmarting the evil Gargamel and spreading laughter, teamwork, and joy.
+                    </p>
+                </div>
+
+                <button class="btn btn-dark smurfs-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionshinchanyoutubeurl" style="text-align:center;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/OA8e4F3_HKA" frameborder="0" allowfullscreen>
+        </iframe>
+        <button class="btn btn-dark dorae-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+
+    </div>
+    <div id="sectionShinchan">
+        <div class="detailed-view-bg-container shinchan-theme">
+            <a href="https://www.google.com/search?q=shinchan&sca_esv=f46f8e3b711902b9&udm=2&sxsrf=AE3TifOIK83CDhzlB65W3BIinBcNvpUlKw%3A1763647401734&ei=qR8faeTELKOy4-EPlOP02AE&oq=shin&gs_lp=Egtnd3Mtd2l6LWltZyIEc2hpbioCCAMyBxAjGMkCGCcyBxAjGMkCGCcyDhAAGIAEGIoFGLEDGIMBMggQABiABBixAzIFEAAYgAQyCBAAGIAEGLEDMggQABiABBixAzIIEAAYgAQYsQMyBRAAGIAEMggQABiABBixA0jWpQFQjQlY3IMBcAx4AJABAJgB3QGgAckSqgEGMC4xMC4zuAEDyAEA-AEBmAIZoALPE6gCCsICChAjGMkCGOoCGCfCAgoQABiABBiKBRhDwgILEAAYgAQYsQMYgwHCAgoQABiABBixAxgKwgIMEAAYgAQYChgLGLEDwgIJEAAYgAQYChgLwgIHEAAYgAQYCsICBhAAGAgYHsICBBAAGAOYAwmSBwcxMi4xMC4zoAftU7IHBjAuMTAuM7gHlBPCBwYwLjQuMjHIB2k&sclient=gws-wiz-img" target="_blank">
+
+                <h1 class="detailed-view-heading">Shinchan</h1>
+            </a>
+            <div class="detailed-view-card-container shinchan-card">
+                <div id="carouselShinchan" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators shinchan-indicators">
+                        <li data-target="#carouselShinchan" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselShinchan" data-slide-to="1"></li>
+                        <li data-target="#carouselShinchan" data-slide-to="2"></li>
+                    </ol>
+
+                    <div class="carousel-inner shinchan-carousel-inner" onclick="display('sectionshinchanyoutubeurl')">
+                        <div class="carousel-item active">
+                            <img src="https://i.pinimg.com/1200x/12/cc/05/12cc05bd2a34beed40b4ec2573ff88df.jpg" class="d-block w-100 shinchan-image" alt="Shinchan funny pose" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/202509/shinchan-153327166-16x9_0.jpg?VersionId=XIwp1Lck8owfEphu6KSSkN3aMJa_t3ky" class="d-block w-100 shinchan-image" alt="Shinchan family" />
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://wallpapers.com/images/hd/shin-chan-amazed-3ifhnlv2ww6kuwb9.jpg" class="d-block w-100 shinchan-image" alt="Shinchan friends" />
+                        </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselShinchan" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon shinchan-prev" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselShinchan" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon shinchan-next" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
+                <div class="detailed-view-card-text-container shinchan-text">
+                    <h1 class="detailed-view-card-heading">About the Show</h1>
+                    <p class="detailed-view-card-description">
+                        *Crayon Shinchan* follows the hilarious adventures of a mischievous 5-year-old boy named Shinnosuke Nohara, better known as Shinchan. With his funny expressions, silly actions, and innocent mischief, Shinchan brings laughter and chaos to his parents, friends, and teachers every day!
+                    </p>
+                </div>
+
+                <button class="btn btn-dark shinchan-btn" onclick="display('sectionfavoriteplaces')">Back</button>
+            </div>
+        </div>
+    </div>
+
+
+    <script type="text/javascript" src="https://d2clawv67efefq.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>
